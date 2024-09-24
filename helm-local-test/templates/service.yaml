@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: {{ template "helm-local-test.fullname" . }}
   labels:
-    app: {{ template "hhelm-local-testhelm-local-test.name" . }}
+    app: {{ template "helm-local-test.name" . }}
     chart: {{ template "helm-local-test.chart" . }}
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
