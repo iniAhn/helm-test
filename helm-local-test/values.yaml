@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: local-test
-  tag: 1.0
+  repository: local/test
+  tag: "1.0"
   pullPolicy: IfNotPresent
 
 containerPort: 8080
